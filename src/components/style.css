@@ -1,0 +1,30 @@
+.font-s{
+    padding: 2rem;
+
+    text-align: center;
+    font-size: 5rem;
+}
+.input-size{
+    font-size: 1.4rem;
+    gap:1.5rem;
+    justify-content: center;
+}
+.input-box{
+    border: none;
+}
+.input-group{
+    margin-top: 15%;
+}
+.img-size{
+    width: 30rem;
+    
+}
+.icon-w{
+width: 7rem;
+}
+.singup{
+    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
