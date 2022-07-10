@@ -34,7 +34,7 @@ const Home = () => {
         
             {
                 !isSingUp &&
-                (islogin?<LogIn islogin={islogin}/>:                <div>             
+                (islogin?<LogIn islogin={islogin}/>:<div>             
 
                 <div className="d-flex justify-content-end p-5 gap-5">
                 <button type="button"  className="btn btn-info" onClick={logIn} >logIn</button>
@@ -45,11 +45,11 @@ const Home = () => {
             </div>
              <div className="font-s">
                 <h1>Home Page</h1>
-               <img src={`./images/arrow-left-circle.svg`} onClick={imgelCount}  className="icon-w m-5"  />
+               <img src={`./images/arrow-left-circle.svg`} onClick={imgelCount}  className="icon-w m-5" alt="none"></img>
                 
-                    <img src={`./images/p${isImage}.jpg`} className="img-size m-5" />
+                <img src={`./images/p${isImage}.jpg`} className="img-size m-5" alt="none"/>
                     
-                    <img src={`./images/arrow-right-circle.svg`} onClick={imgerCount} className="icon-w m-5"  />
+                <img src={`./images/arrow-right-circle.svg`} onClick={imgerCount} className="icon-w m-5" alt="none" />
 
                 </div>
     
